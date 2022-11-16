@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&display=swap");
+
+.loginBackground {
+  margin-top: 5rem;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: "Manrope", sans-serif;
+  align-items: center;
+}
+.h3c {
+  font-weight: 500;
+}
+.loginContainer {
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #16161b;
+  margin-bottom: 200px;
+  box-shadow: #00b140 0px 1px 8px;
+  border: 1px #00b140 solid;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.SignInput {
+  background-color: #222229;
+  font-size: medium;
+  color: white;
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.SignButton {
+  font-family: "Manrope", sans-serif;
+  border-color: transparent;
+  margin-right: 6%;
+  height: 30px;
+  background-color: #222229;
+  border: 1px #00b140 solid;
+  box-shadow: #00b140 0px 1px 8px;
+  margin-top: 5%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 2300;
+  cursor: pointer;
+}

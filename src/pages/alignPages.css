@@ -1,0 +1,8 @@
+.pageHeight {
+    min-height: 47rem;
+}
+.wrapper {
+    max-width: 1344px;
+    width: 70%;
+    margin: 0 auto;
+}

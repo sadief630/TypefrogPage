@@ -1,0 +1,14 @@
+.options-select {
+  position: relative;
+  border-radius: 10px;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+  background-color: #16161b;
+  border-color: #00b140;
+  display: block;
+  margin: auto;
+  height: 2rem;
+  width: 6rem;
+}

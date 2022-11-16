@@ -1,0 +1,125 @@
+.smallSaveButton{
+    font-family: 'Manrope', sans-serif;
+    margin-left: 2%;
+    font-weight:300;
+    border-color:transparent;
+    font-size: 1rem;
+    font-weight: 300;
+    border-color:#00b140;
+    background-color: #16161b;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.accountInfoHeader h4{
+    margin-left: 2%;
+    margin-right: 2%;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 1.563rem;
+    margin-bottom: 1%;
+}
+
+.accountInfo {
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.avatarSelector {
+    color: white;
+}
+
+.avatarSelector h4{
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: 700;
+    font-size: 1.563rem;
+    margin-bottom: 10px;
+}
+
+.frogcontainer {
+    margin-left: 2%;
+    margin-right: 2%;
+    color:#ffffff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-track-color: #00b140;
+    white-space: nowrap;
+}
+
+.EditProfileText{
+    font-family: 'Manrope', sans-serif;
+    border-color:#9d9da5;
+    border-radius: 5px;
+    font-size: 1rem;
+    color:white;
+    width: 300px;;
+    background-color: #222229;
+}
+
+.frogphotos {
+    cursor: pointer;
+    height: 12.5rem;
+    width: 12.5rem;
+    border: 3px transparent solid;
+    border-radius: 20%;
+}
+
+.frogPhotosSelected {
+    cursor: pointer;
+    height: 12.5rem;
+    width: 12.5rem;
+    border: 3px #00b140 solid;
+    border-radius: 20%;
+}
+
+.frogchoice {
+    height: 5rem;
+    width: 5rem;
+    vertical-align:middle;
+    margin-bottom: 0px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.saveButton{
+    font-family: 'Manrope', sans-serif;
+    font-weight:lighter;
+    border-color:transparent;
+    font-size: 1.563rem;
+    font-weight: 500;
+    width: auto;
+    border-color:#00b140;
+    background-color: #16161b;
+    box-shadow: #00b140 0px 1px 8px;
+    border-radius: 5px;
+    margin-left: 5%;
+    color:white;
+    cursor:pointer;
+    margin-top:2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.modify{
+    font-family: 'Manrope', sans-serif;
+    border-color:transparent;
+    margin-left:3%;
+    width: auto;
+    background-color: #222229;
+    border-radius: 5px;
+    color:white;
+    font-weight:lighter;
+    cursor:pointer;
+}

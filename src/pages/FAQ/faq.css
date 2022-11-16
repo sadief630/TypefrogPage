@@ -1,0 +1,48 @@
+/* Formatting for the entire page; More narrow than most pages */
+.faqPageFormat {
+    max-width: 1344px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+/* General settings for fonts */
+.faq {
+    color: white;
+    text-align: center;
+}
+
+/* Page Header */
+.faq h2 {
+    font-size: 2.074rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Formatting for description directly under "FAQ" on the page */
+.faq h5{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+/* Formatting for paragraph headers */
+.faq h3 {
+    font-size: 1.44rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+/* Formatting for paragraphs */
+.faq p {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+}

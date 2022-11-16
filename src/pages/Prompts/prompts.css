@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&display=swap');
+
+
+.modalSection{
+    padding:30px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    font-size:medium;
+}
+
+.openModalBtn{
+    font-family: 'Manrope', sans-serif;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color:#16161b;
+    box-shadow: #00b140 0px 1px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px #00b140 solid;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.promptsList{
+    justify-content: center;
+    align-items: center;
+}
+
+.ulAlign{
+    padding:30px;
+    padding-top:0px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.errorPrompt{
+    color:white;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    margin:50px;
+    font-size:large;
+    font-weight: lighter;
+}

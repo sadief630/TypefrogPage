@@ -1,0 +1,93 @@
+/* Formatting for the entire page */
+.mTop {
+    color: #ffffff;
+}
+
+/* Page Header */
+.mTop h2 {
+    text-align: center;
+    font-size: 2.074rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Formatting for the description under the Page Header */
+.mTop p {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+/* Container for the Products and their dependencies */
+    .productCont {
+        color: #ffffff;
+        text-align: justify;
+    }
+
+    /* Anchor container for the product title (LINKED WITH .prodTitle) */
+    .prodTopCont {
+        text-decoration: none;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    /* Formatting for the title of the Product */
+    .prodTitle {
+        color: #ffffff;
+        font-size: 2.074rem;
+        font-weight: 700;
+    }
+
+    /* Formatting for the description of the product (under the pictures) */
+    .productCont p {
+        color: gray;
+        font-size: 0.833rem;
+        font-weight: 500;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+        margin-bottom: 5rem;
+    }
+
+    /* Image Grid & Dependencies */
+    .image-grid {
+        --num-cols: 4;
+        --row-height: 17.5rem;
+
+        box-sizing: border-box;
+
+        display: grid;
+        grid-template-columns: repeat(var(--num-cols), 1fr);
+        grid-auto-rows: var(--row-height);
+        gap: 1rem;
+        padding-left: 1rem;
+
+        margin-top: 0.5rem;
+        border-left: 4px #00b140 solid;
+    }
+
+    .image-grid>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .image-grid-col-2 {
+        grid-column: span 2;
+    }
+
+    .image-grid-row-2 {
+        grid-row: span 2;
+    }
+
+    /* Anything udner 1024px */
+    @media screen and (max-width: 1024px) {
+        .image-grid {
+            --num-cols: 2;
+            --row-height: 200px;
+        }
+    }
+
+/* End container for Products */

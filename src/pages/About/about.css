@@ -1,0 +1,99 @@
+/* Page Header */
+.aHeader h2 {
+    text-align: center;
+    font-size: 2.074rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Main paragraph Formatting */
+.aboutBody {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Classes for the headshots, names, and titles */
+    .hrow {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        vertical-align: top;
+        overflow-x: hidden;
+        margin-top: 3rem;
+    }
+
+    .hcol {
+        word-wrap: normal;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Headshot formatting */
+    .headshot {
+        width: 8.5rem;
+        height: 8.5rem;
+        border: 3px #00b140 solid;
+        border-radius: 50%;
+    }
+
+    /* Name formatting */
+    .hrow h5 {
+        color: white;
+        font-weight: 500;
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 0.3rem;
+        /* This is the line below the names. A little makeshift, but it works */
+        border-bottom: 3px #00b140 solid;
+    }
+
+    /* Titles */
+    .hrow h6 {
+        color: #9d9da5;
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        /* Sets a specific width between each name */
+    }
+
+    /* Classes for potential description paragraphs, not currently implemented */
+    .hrow p {
+        overflow-wrap:break-word;
+        overflow-x: hidden;
+    }
+
+    .hrow a {
+        text-decoration: none;
+    }
+
+    /* End Headshot classes */
+
+/* Formatting for the Bottom Photos */
+.mrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+    overflow-x: hidden;
+    margin-top: 1rem;
+}
+
+.logo1 {
+    width: 30rem;
+}
+
+.logo2 {
+    width: 20rem;
+}

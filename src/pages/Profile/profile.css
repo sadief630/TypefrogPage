@@ -1,0 +1,16 @@
+/* Formatting for the Login (only shows if the user is not logged in) */
+.loginSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
+/* Page Header (doesn't show if the user is not logged in) */
+.pHeader h2{
+    text-align: center;
+    font-size: 2.441rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}

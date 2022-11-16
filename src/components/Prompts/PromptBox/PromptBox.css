@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+.PromptFooter{
+    margin: 6px;
+}
+.promptButton{
+    color: white;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    background-color: #16161b;
+    /* box-shadow: #00b140 0px 1px 8px; */
+    border: 1px #00b140 solid;
+    border-radius: 5px;
+    margin:10px;
+    margin-top:4px;
+    cursor:pointer;
+}
+
+.break{
+    background-color: white;
+    border-width: .5px;
+    width: 300px;
+    margin-top: 0px;
+}
+.PromptBody{
+    line-height: .8rem;
+    font-size:.8rem;
+    margin-left:3rem;
+    margin-right:3rem;
+    font-style: italic;
+    margin-bottom:0px;
+    text-align: center;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.PromptTitle{
+    color:white;
+    margin-bottom: 0px;
+    font-size:large;
+    font-weight: bold;
+}
+
+.PromptContainer{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    position:relative;
+    font-family: 'Manrope', sans-serif;
+    overflow-wrap: anywhere;
+    height:200px;
+    width:400px;
+    background-color: #16161b;
+    box-shadow: #00b140 0px 1px 8px;
+    margin:20px;
+    border: 1px #00b140 solid;
+    border-radius: 10px;
+    color:white;
+    font-size:small;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.highScores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:.6rem;
+    margin-bottom: 0px;
+}
+.score{
+    margin-left:10px;
+    color:white;
+    font-family: 'Manrope', sans-serif;
+
+    margin-top:0;
+    margin-right:10px;
+    font-style: normal;
+    font-weight: light;
+    font-size:small;
+}
+.PromptTitle{
+    color:white;
+    margin-bottom: 0px;
+    font-size:large;
+    font-weight: bold;
+}

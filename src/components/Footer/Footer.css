@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Manrope', sans-serif;
+    min-height:100vh;
+    flex:auto;
+    flex-direction: column;
+}
+footer *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #16161b;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 18%;
+    padding: 0 15px;
+    flex: auto;
+    padding-bottom: 30px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #00b140;
+    /*text-transform: none;*/
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #00b140;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    /*text-transform: capitalize;*/
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color:#00b140;
+    background-color:#ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px
+    }
+}
+@media(max-width: 574){
+    .footer-col {
+        width: 100%
+    }
+}

@@ -25,23 +25,23 @@ function App() {
   return (
     <>
       <div className='header'>
-        <a href="/" type='image/svg+xml' data='./frogTypeLOGO_brightverde.svg' className="logo"> </a>
+        <a href="/TypefrogPage" type='image/svg+xml' data='./frogTypeLOGO_brightverde.svg' className="logo"> </a>
         <HeaderLogin />
       </div>
 
       <Router>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/bugreport' element={<BugReport />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/faq' element={<FAQ />} />
-          <Route path='/merch' element={<Merch />} />
-          <Route path='/profile' element={<Profile />} />
-          <Route path='/prompts' element={<Prompts />} />
-          <Route path='/shop' element={<Shop />} />
-          <Route path='/settings' element={<Settings />} />
+          <Route exact path='/TypefrogPage' element={<Home />} />
+          <Route path='/TypefrogPage/about' element={<About />} />
+          <Route path='/TypefrogPage/bugreport' element={<BugReport />} />
+          <Route path='/TypefrogPage/contact' element={<Contact />} />
+          <Route path='/TypefrogPage/faq' element={<FAQ />} />
+          <Route path='/TypefrogPage/merch' element={<Merch />} />
+          <Route path='/TypefrogPage/profile' element={<Profile />} />
+          <Route path='/TypefrogPage/prompts' element={<Prompts />} />
+          <Route path='/TypefrogPage/shop' element={<Shop />} />
+          <Route path='/TypefrogPage/settings' element={<Settings />} />
           
         </Routes>
       </Router>

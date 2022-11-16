@@ -30,7 +30,7 @@ function PromptBox({name, prompt, userID}){
     function playPrompt(){
         var data = {"name": name, "prompt": prompt};
         localStorage.setItem("name", JSON.stringify(data));
-        navigate('/');
+        navigate('/TypefrogPage');
     }
 
     /**

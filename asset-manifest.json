@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TypefrogPage/static/css/main.097e1767.css",
-    "main.js": "/TypefrogPage/static/js/main.67bd1aaa.js",
+    "main.js": "/TypefrogPage/static/js/main.76b892fc.js",
     "static/media/merchIndividualMousePad.png": "/TypefrogPage/static/media/merchIndividualMousePad.ec62452c4868b68ec9a5.png",
     "static/media/merchSpecialFrogCollectionDeskMat.png": "/TypefrogPage/static/media/merchSpecialFrogCollectionDeskMat.1805b71e0971b6d980ac.png",
     "static/media/headshotEthan.png": "/TypefrogPage/static/media/headshotEthan.9a6d0dc7efe08ecb545f.png",
@@ -30,10 +30,10 @@
     "static/media/loading.svg": "/TypefrogPage/static/media/loading.34e9a5c3c258d5b4d60a414e19fb8fb2.svg",
     "index.html": "/TypefrogPage/index.html",
     "main.097e1767.css.map": "/TypefrogPage/static/css/main.097e1767.css.map",
-    "main.67bd1aaa.js.map": "/TypefrogPage/static/js/main.67bd1aaa.js.map"
+    "main.76b892fc.js.map": "/TypefrogPage/static/js/main.76b892fc.js.map"
   },
   "entrypoints": [
     "static/css/main.097e1767.css",
-    "static/js/main.67bd1aaa.js"
+    "static/js/main.76b892fc.js"
   ]
 }

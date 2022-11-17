@@ -1,7 +1,8 @@
 import { React } from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar.js';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route }
+  from 'react-router-dom';
 import Home from './pages';
 import About from './pages/About/about';
 import BugReport from './pages/BugReport/bugReport';
@@ -31,16 +32,16 @@ function App() {
       <HashRouter>
         <Navbar />
         <Routes>
-          <Route exact path='/TypefrogPage' element={<Home />} />
-          <Route path='/TypefrogPage/about' element={<About />} />
-          <Route path='/TypefrogPage/bugreport' element={<BugReport />} />
-          <Route path='/TypefrogPage/contact' element={<Contact />} />
-          <Route path='/TypefrogPage/faq' element={<FAQ />} />
-          <Route path='/TypefrogPage/merch' element={<Merch />} />
-          <Route path='/TypefrogPage/profile' element={<Profile />} />
-          <Route path='/TypefrogPage/prompts' element={<Prompts />} />
-          <Route path='/TypefrogPage/shop' element={<Shop />} />
-          <Route path='/TypefrogPage/settings' element={<Settings />} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/bugreport' element={<BugReport />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/faq' element={<FAQ />} />
+          <Route path='/merch' element={<Merch />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/prompts' element={<Prompts />} />
+          <Route path='/shop' element={<Shop />} />
+          <Route path='/settings' element={<Settings />} />
           
         </Routes>
       </HashRouter>

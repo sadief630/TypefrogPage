@@ -15,7 +15,7 @@ const Navbar = () => {
      * Refresh Page
      */
     function reset(){
-        navigate('/TypefrogPage');
+        navigate('/');
         window.location.reload();
     }
 
@@ -32,19 +32,19 @@ const Navbar = () => {
             />
             <Nav>
                 <NavMenu>
-                    <NavLink to="/TypefrogPage" onClick={() => {reset()}}>
+                    <NavLink to="/" onClick={() => {reset()}}>
                         Home
                     </NavLink>
-                    <NavLink to="TypefrogPage/prompts" >
+                    <NavLink to="/prompts" >
                         Prompts
                     </NavLink>
-                    <NavLink to="TypefrogPage/about" >
+                    <NavLink to="/about" >
                         About
                     </NavLink>
-                    <NavLink to="TypefrogPage/profile" >
+                    <NavLink to="/profile" >
                         Profile
                     </NavLink>
-                    <NavLink to="TypefrogPage/merch" >
+                    <NavLink to="/merch" >
                         Merch
                     </NavLink>
                 </NavMenu>

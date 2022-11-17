@@ -66,6 +66,7 @@ const HeaderLogin = ()  => {
             return (
                 <div className="headerUserContainer">
                     <div className="login">
+                        {/* Deployment Test */}
                         <a href="/TypefrogPage/#/profile"> <button type="button" className="login">Login or Create Account</button> </a>
                     </div>
                 </div>);

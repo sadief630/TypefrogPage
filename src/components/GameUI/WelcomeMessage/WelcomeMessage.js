@@ -25,7 +25,7 @@ export const WelcomeMessage = (name) => {
         <div className="gameHeader2">
           Press Start to Type with Randomly Generated Words.
           <div>
-            <a href="/prompts">
+            <a href="/TypefrogPage/#/prompts">
               <button className="optionButton2" type="button">
                 {" "}
                 Choose or Create a Custom Prompt
@@ -53,7 +53,7 @@ export const WelcomeMessage = (name) => {
           >
             Play With Random Words
           </button>
-          <a href="/prompts">
+          <a href="/TypefrogPage/#/prompts">
             <button className="optionButton" type="button">
               Choose a Different Prompt
             </button>{" "}

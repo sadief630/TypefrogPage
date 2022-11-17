@@ -37,7 +37,7 @@ const Footer = () => {
                         <div className="footer-col">
                             <h4>Online Shop</h4>
                             <ul>
-                                <li><a href="/TypefrogPage/merch">Merchandise</a></li>
+                                <li><a href="/TypefrogPage/#/merch">Merchandise</a></li>
                                 <li><a href="https://www.homedepot.com/s/frog?NCNI-5">Non-Affiliated Products</a></li>
                                 <li><a href="https://www.backwaterreptiles.com/tree-frogs-for-sale.html">Mascot Shop</a></li>
                             </ul>
